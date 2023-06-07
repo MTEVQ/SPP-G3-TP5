@@ -1,0 +1,126 @@
+{
+	"name": "MAS LIMPIO",
+	"backImage": "https://user-images.githubusercontent.com/108300852/243126173-68605e79-f6b5-46a3-8566-47a8ed9409a8.png",
+	"image": "https://user-images.githubusercontent.com/108300852/243116273-fca0a4e7-3121-46b6-84d2-8c0b86c4a72f.png",
+	"position": "Elaboración, comercialización y distribución de productos de limpieza",
+    "url": "Parque Industrial"
+	,
+	"ubication": "Salta - Argentina",
+	"about": "¡No dudes en comunicarte con nosotros!",
+	"experience": [{
+		"position": " María Rosa Panza",
+		"company": "Fundadora - Gerenta",
+		"img": "https://user-images.githubusercontent.com/108300852/243491861-e175ca7a-702c-4a76-ae41-1d84d8fc1774.JPG",
+		"mode": "",
+		"start": "La felicidad huele a MAS LIMPIO",
+		"end": "",
+        "ubication": "En nuestra fábrica, un gran equipo trabaja día a día bajo las premisas de superación e innovación constante", 
+		"timeElapsed": "y de excelencia en calidad y servicio para nuestros clientes."
+	}],
+	"education": [{
+			"school": "Desinfectante de piso 4 Litros",
+			"title": "Aromas disponibles: Frescura lavanda, Vainilla, Rosas, Limon",
+			"img": "https://http2.mlstatic.com/D_NQ_NP_744516-MLA52445165598_112022-W.webp",
+			"career": "",
+			"score": 0,
+			"start": "$1.100,85",
+			"end": ""
+		},
+		{
+			"school": "Perfume Neutralizador De Olores Mascotas 5 Litros",
+			"title": "Elimina el olor a orina de perros y gatos de tus pisos,no volveran a orinar dentro de tu hogar, inofensivo para las mascotas, neutraliza olores",
+			"img": "https://http2.mlstatic.com/D_NQ_NP_981291-MLA47165361051_082021-W.webp",
+			"career": "",
+			"score": 0,
+			"start": "$6.359.99",
+			"end": ""
+		},
+		{
+			"school": "Detergente Sanitizante con 70% de Alcohol 5 Litros X4 Unidades",
+			"title": "Desinfectante a base de alcohol etílico al 70% listo para usar, actúa en un amplio espectro de bacterias gram-positivas y de gram-negativas. Apto para todo tipo de superficies formicas, metálicas, cromadas, mesas, azulejos, vidrios, picaportes, paredes, plásticos, etc. Rociar directamente sobre la superficie con pulverizador, producto certificado por ANMAT",
+			"img": "https://http2.mlstatic.com/D_NQ_NP_942616-MLA49717995878_042022-W.webp",
+			"career": "",
+			"score": 0,
+			"start": "$12.400,10",
+			"end": ""
+		}
+	],
+	"aptitudes": [{
+			"name": "¿Hacen factura A o B?",
+			"progress": "Si, contamos con ambos tipos de facturación.",
+			"confirms": 0,
+			"confirmsNames": [{
+				"name": ""
+			}]
+		},
+		{
+			"name": "¿Puedo pedir cotización de algún producto que no esté en la página?",
+			"progress": "Sí, en la pagina solo veras algunos productos, ya que la amplia variedad existente imposibilita que todos sean expuestos, abarcando desde trapos en todas sus presentaciones, sanitizantes, desinfectantes, escobillones, secadores y todo lo relativo a la limpieza e higiene institucional; como así también, lo vinculado a seguridad industrial. Podes enviar tu solicitud de cotización a la casilla de correo maslimpio@gmail.com o comunicarte al +5493874624628.",
+			"confirms": 3,
+			"confirmsNames": [{
+				"name": "Mayra Tatiana Elizabeth Velasquez"
+			}]
+		},
+		{
+			"name": "¿Cuál es el plazo de entrega?",
+			"progress": "Habitualmente entre 24 y 48 hs.",
+			"confirms": 3,
+			"confirmsNames": [{
+				"name": "Mayra Tatiana Elizabeth Velasquez"
+			}]
+		},
+		{
+			"name": "¿Hacen entregas a domicilio?",
+			"progress": "Si, hacemos reparto a domicilio de lunes a viernes.",
+			"confirms": 3,
+			"confirmsNames": [{
+				"name": "Mayra Tatiana Elizabeth Velasquez"
+			}]
+		},
+		{
+			"name": "¿Realizan envíos a otra provincia?",
+			"progress": "Si, se envian por el expreso designado por el comprador y a su cargo.",
+			"confirms": 3,
+			"confirmsNames": [{
+				"name": "Mayra Tatiana Elizabeth Velasquez"
+			}]
+		},
+		{
+			"name": "¿Dónde me puedo comunicar por duda o consulta sobre un producto?",
+			"progress": "Te podes comunicar al +5493874624628 o escribinos a maslimpio@gmail.com , tanto sea por un producto, o bien, para contar con un asesoramiento personalizado.",
+			"confirms": 3,
+			"confirmsNames": [{
+				"name": "Mayra Tatiana Elizabeth Velasquez"
+			}]
+		},
+		{
+			"name": "¿Puedo retirar mi compra?",
+			"progress": "Si, podes hacerlo por Parque Industrial(Salta-Capital) de 9:00 a 19:00 hs.",
+			"confirms": 3,
+			"confirmsNames": [{
+				"name": "Mayra Tatiana Elizabeth Velasquez"
+			}]
+		}
+
+	],
+	"projects": [
+		{
+			"name":"MISIÓN",
+			"description":"Somos una empresa dedicada a la fabricación y venta de productos de limpieza con la mayor calidad y el mejor uso eficiente de recursos, cuidando el medio ambiente y teniendo en cuenta la economía de nuestros clientes."
+		},
+		{
+			"name":"VISIÓN",
+			"description":"Para el 2027 pretendemos abarcar al menos el 35% del mercado del Norte Argentino, cumpliendo con las expectativas de nuestros clientes, poniendo como prioridad la satisfacción de sus necesidades y brindando productos seguros para las personas y el medio ambiente."
+		},
+		{
+			"name":"VALORES",
+			"description":"✦ RESPETO por nuestros clientes, nuestros colaboradores y nuestra comunidad.",
+			"description1":"✦ CALIDAD en nuestro servicio.",
+			"description2":"✦ SUSTENTABILIDAD asegurando rentabilidad a nuestros accionistas sin perder de vista nuestras responsabilidades sociales y ambientales.",
+			"description3":"✦ ÉTICA para con nuestros clientes y destinatarios finales de nuestros productos.",
+			"description4":"✦ CREATIVIDAD E INNOVACION búsqueda constante de nuevas soluciones técnicas para poder ofrecer nuevos productos que cubran distintos nichos del mercado."
+		}
+	]
+
+
+}

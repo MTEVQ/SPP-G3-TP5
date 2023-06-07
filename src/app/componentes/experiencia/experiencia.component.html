@@ -1,0 +1,19 @@
+<div *ngFor="let experiencia of experienciaList">
+<div id="expCursos" class="row m-b3">
+    <div class="col-11">
+    
+        <div class="row mb-2">
+            <div class="col-1 text-center ">
+                <img [src]="experiencia.img" alt="python" width="200" height="200">
+            </div>
+            <div class="col-10 text-center">
+                <div class="fs-2 fw-bold">{{experiencia.position}}</div>
+                <div class="text-secondary fw-bold fs-3" id="tutora">{{experiencia.company}}  {{experiencia.mode}}</div>
+                <div class="text-secondary fw-bold fs-4">{{experiencia.start}}  {{experiencia.end}}  </div>
+                <div class="text-secondary fw-bold fs-5" >{{experiencia.ubication}}</div>
+                <div class="text-secondary fw-bold fs-5" >{{experiencia.timeElapsed}}</div>
+        
+            </div>
+        </div>
+    </div>
+</div>

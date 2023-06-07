@@ -1,0 +1,26 @@
+<div class="m-2 p-3 border border-dark rounded-3">
+    <div class="row">
+        <div class="row">
+            <div class="col-11">
+                <div class=" mb-2 fs-2 fw-bold bi bi-cart3">Catálogo</div>
+<div *ngFor="let educacion of educacionList">
+<div id="Educ1" class="row mb-3">
+    <div class="col-11">
+    
+        <div class="row mb-2">        
+            <div class="col-1 text-center ">
+                <img [src]="educacion.img" width="150">
+            </div>
+            <div class="col-10 text-center mt-5">
+                <div class="fs-5 mx-2">{{educacion.school}}</div>
+                <div class="text-secondary fs-6 mx-2" id="unsa">{{educacion.title}} {{educacion.career}}</div>
+                <div class="text-secondary fw-bold mx-2">{{educacion.start}} {{educacion.end}}</div>
+                </div>
+        </div> 
+    </div>
+    <div class="col-1 text-center mt-5">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-whatever="Educ1">
+        <i class="bi bi bi-cart3 fs-2 "></i>
+        </a> 
+    </div>
+</div>  

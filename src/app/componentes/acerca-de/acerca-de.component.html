@@ -1,0 +1,60 @@
+<div class="m-2 p-3 border border-dark rounded-3">
+    <div class="row bg-light text-dark">
+        <div class="col-11 text-center">
+            <div class="fs-3 fw-bold mb-2">Contacto</div>
+             <i class="bi bi-telephone-fill fw-bold fs-5">  +5493874624628</i>
+             <div></div>
+             <i class="bi bi-envelope-at fw-bold fs-5">  maslimpio@gmail.com</i>
+             <div></div>
+             <i class="bi bi-geo-alt fw-bold fs-5">  Parque Industrial</i>
+            <div class="mb-2 fw-bold fs-5" id="acercaDe">{{acercaDe}}</div>
+        </div> 
+    <div>
+          <div>
+            Nombre:
+            <input 
+              placeholder="Ingrese su nombre" 
+              type="text" 
+              [(ngModel)]="nombre" />
+          </div>
+          <br />
+          <div>
+            Apellido:
+            <input 
+              placeholder="Ingrese su apellido" 
+              type="text" 
+              [(ngModel)]="apellido" />
+          </div>
+          <br />
+          <div>
+            <div>
+             E-mail:
+             <input 
+               placeholder="Ingrese su correo" 
+               type="text" 
+               [(ngModel)]="correo" />
+           </div>
+           <br />
+          <div>
+            Teléfono de contacto:
+            <input
+              placeholder="Ingrese un telefono"
+              type="number"
+              [ngModel]="telefono"
+            />
+          </div>
+          <br />
+          <div>
+            Mensaje:
+            <input 
+              placeholder="Dejenos un mensaje" 
+              type="text" 
+              [(ngModel)]="mensaje" />
+          </div>
+          <br />
+        </div>
+        <br/>
+        <button class="click btn btn-info fs-5 mx-2" href="#"(click)="onClick()">Enviar</button>
+      </div>
+    </div>  
+</div>

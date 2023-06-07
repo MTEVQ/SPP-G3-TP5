@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mas Limpio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">        
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fs-5 ">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold fs-3 mx-8" href="#">Mas Limpio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-2">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"></a>
+          </li>
+        </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="A/nuestros/clientes">
+              <button class="btn btn-primary fs-5 mx-2 fw-1" aria-current="page" href="#">A nuestros clientes...</button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Catalogo">
+              <button class="btn btn-info fs-5 mx-2 fw-1" aria-current="page" href="#">Catálogo</button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Preguntas/Frecuentes">
+              <button class="btn btn-info fs-5 mx-2 fw-1" aria-current="page" href="#">Preguntas frecuentes</button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="La/Empresa">
+              <button class="btn btn-info fs-5 mx-2 fw-1" aria-current="page" href="#">La Empresa</button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Contacto">
+              <button class="btn btn-info fs-5 mx-2 fw-1" aria-current="page" href="#">Contacto</button></a>
+            </li>
+          </ul>
+        </div>
+        <span class="navbar-text">
+            <a href="">
+                <i class="bi bi-facebook mx-2"></i>
+            </a>
+            <a href="">
+                <i class="bi bi-instagram mx-2"></i>
+            </a>
+            <a href="">
+                <i class="bi bi-twitter mx-2"></i>
+            </a>
+        </span>
+        <nav >
+          <div class="container-fluid">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 bi bi-search" type="search" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </div>
+    </nav>  
+
+
+    <!-- encabezado -->
+    <div class="m-2 border border-dark rounded-3 text-center">
+        <img src="src/assets/images/port.png" alt="Port" width="100%">
+        <div class="p-3">
+            <div class="mb-3">
+                <img src="src/assets/images/logo.png" alt="perfil" width="450" height="200" class="imagen-perfil rounded-0">
+                <div class="fs-2 mx-2">MAS LIMPIO</div>
+                <div class="fs-3 mx-2">Elaboración, comercialización y distribución de productos de limpieza</div>
+                <div class="fs-3 mx-2">Salta - Argentina</div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- experiencias y educaciones -->
+    <div class="m-2 p-3 border border-dark rounded-3">
+        <div class="fs-2 my-2 fw-bold">A nuestros clientes...</div>
+
+        <!-- experiencias en cursos-->
+        <div id="expCursos" class="row m-b3">
+            <div class="col-11">
+                <div class="row mb-2">
+                    <div class="col-1 text-center ">
+                        <img src="src/assets/images/profe.png" alt="python" width="200" height="200">
+                    </div>
+                    <div class="col-10 text-center">
+                        <div class="fs-2 fw-bold">Maria Rosa Panza</div>
+                        <div class="text-secondary fw-bold fs-3" id="tutora">Fundadora - Gerenta</div>
+                        <div class="text-secondary fw-bold fs-4">La felicidad huele a MAS LIMPIO</div>
+                        <div class="text-secondary fw-bold fs-5">En nuestra fábrica, un gran equipo trabaja día a día bajo las premisas de superación e innovación constante</div>
+                        <div class="text-secondary fw-bold fs-5"> y de excelencia en calidad y servicio para nuestros clientes.</div>
+                        <input type="text" id="inputTutora" class="form-control" style="display: none;" onkeyup="updTutora()">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+        <!-- educación UNSa  -->
+    <div class="m-2 p-3 border border-dark rounded-3">
+        <div class="mb-2 fs-2 fw-bold bi bi-cart3">Catálogo</div>
+
+        <div id="Educ1" class="row mb-3 text-center">
+            <div class="col-11">
+                <div class="row mb-2">
+                    <div class="col-1 text-center ">
+                        <img src="src/assets/images/desinfectante.png" alt="pixar" width="150">
+                    </div>
+                    <div class="col-10 text-center mt-5 ">
+                        <div class="fs-5 mx-2">Desinfectante de piso 4 Litros</div>
+                        <div class="text-secondary fs-6 mx-2" id="unsa">Aromas disponibles: Frescura lavanda, Vainilla, Rosas, Limon</div>
+                        <div class="text-secondary fw-bold mx-2">$1.100,85</div>
+                        <input type="text" id="inputUNSa" class="form-control" style="display: none;" onkeyup="updUNSa()">
+                    </div>
+                </div>
+            </div>
+            <div class="col-1 text-center mt-5">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-whatever="Educ1">
+                <i class="bi bi bi-cart3 fs-2 "></i>
+                </a> 
+            </div>
+        </div>  
+
+        <div id="Educ2" class="row mb-3 text-center">
+            <div class="col-11">
+                 <div class="row mb-2">
+                     <div class="col-1 text-center ">
+                         <img src="src/assets/images/mascotas.png" alt="java" width="150">
+                    </div>
+                    <div class="col-10 ">
+                        <div class="fs-5 mx-2">Perfume Neutralizador De Olores Mascotas 5 Litros</div>
+                        <div class="text-secondary fs-6 mx-2" id="cursoJava">Elimina el olor a orina de perros y gatos de tus pisos,no volveran a orinar dentro de tu hogar, inofensivo para las mascotas, neutraliza olores</div>
+                        <div class="text-secondary fw-bold mx-2">$6.359.99</div>
+                        <input type="text" id="inputCursoJava" class="form-control" style="display: none;" onkeyup="updCursoJava()">
+                    </div>
+                </div>
+            </div>
+            <div class="col-1 text-center mt-5">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-whatever="Educ1">
+                <i class="bi bi bi-cart3 fs-2 "></i>
+                </a> 
+            </div>
+        </div>  
+
+        <div id="Educ3" class="row mb-3 text-center">
+            <div class="col-11">
+                <div class="row mb-2">
+                    <div class="col-1 text-center ">
+                        <img src="src/assets/images/alcohol.png" alt="python" width="150">
+                    </div>
+                    <div class="col-10 ">
+                        <div class="fs-5 mx-2">Detergente Sanitizante con 70% de Alcohol 5 Litros X4 Unidades</div>
+                        <div class="text-secondary fs-6 mx-2" id="cursoPython">Desinfectante a base de alcohol etílico al 70% listo para usar, actúa en un amplio espectro de bacterias gram-positivas y de gram-negativas. Apto para todo tipo de superficies formicas, metálicas, cromadas, mesas, azulejos, vidrios, picaportes, paredes, plásticos, etc. Rociar directamente sobre la superficie con pulverizador, producto certificado por ANMAT</div>
+                        <div class="text-secondary fw-bold mx-2">$12.400,10</div>
+                        <input type="text" id="inputCursoPython" class="form-control" style="display: none;" onkeyup="updCursoPython()">
+                    </div>
+                </div>
+            </div>
+            <div class="col-1 text-center mt-5">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-whatever="Educ1">
+                <i class="bi bi bi-cart3 fs-2 "></i>
+                </a> 
+            </div> 
+        </div>
+    </div>
+    <!-- Hard & Soft Skills -->
+    <div class="m-2 p-3 border border-dark rounded-3">
+        <div class="row">
+            <div class="row">
+                <div class="col-11">
+                    <div class="fs-2 my-2 fw-bold bi bi-question-circle">Preguntas Frecuentes</div>
+                    <div *ngFor="let aptitudes of aptitudesList">
+                        <div id="Apti1" class="row mb-3">
+                            <div class="col-11">
+                                <div class="row mb-2">        
+                                    <div class="col-1 text-center">
+                                    </div>
+                                    <div class="col-10 ">
+                                        <div class="fs-3"id="aptitudes1">¿Hacen factura A o B?</div>
+                                            <div class="text-secondary fs-4 mx-2">Si, contamos con ambos tipos de facturación.</div>
+                                        <br/>
+                                        <div class="fs-3"id="aptitudes1">¿Puedo pedir cotización de algún producto que no esté en la página?</div>
+                                            <div class="text-secondary fs-4 mx-2">Sí, en la pagina solo veras algunos productos, ya que la amplia variedad existente imposibilita que todos sean expuestos, abarcando desde trapos en todas sus presentaciones, sanitizantes, desinfectantes, escobillones, secadores y todo lo relativo a la limpieza e higiene institucional; como así también, lo vinculado a seguridad industrial. Podes enviar tu solicitud de cotización a la casilla de correo maslimpio@gmail.com o comunicarte al +5493874624628.</div>
+                                        <br/>
+                                        <div class="fs-3"id="aptitudes1">¿Cuál es el plazo de entrega?</div>
+                                            <div class="text-secondary fs-4 mx-2">Habitualmente entre 24 y 48 hs.</div>
+                                        <br/>
+                                        <div class="fs-3"id="aptitudes1">¿Hacen entregas a domicilio?</div>
+                                            <div class="text-secondary fs-4 mx-2">Si, hacemos reparto a domicilio de lunes a viernes.</div>
+                                        <br/>
+                                        <div class="fs-3"id="aptitudes1">¿Realizan envíos a otra provincia?</div>
+                                            <div class="text-secondary fs-4 mx-2">Si, se envian por el expreso designado por el comprador y a su cargo.</div>
+                                        <br/>
+                                        <div class="fs-3"id="aptitudes1">¿Dónde me puedo comunicar por duda o consulta sobre un producto?</div>
+                                            <div class="text-secondary fs-4 mx-2">Te podes comunicar al +5493874624628 o escribinos a maslimpio@gmail.com , tanto sea por un producto, o bien, para contar con un asesoramiento personalizado.</div>
+                                        <br/>
+                                        <div class="fs-3"id="aptitudes1">¿Puedo retirar mi compra?</div>
+                                            <div class="text-secondary fs-4 mx-2">Si, podes hacerlo por Parque Industrial(Salta-Capital) de 9:00 a 19:00 hs.</div>
+                                        <br/>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>  
+                    </div>            
+                </div>  
+            </div>
+        </div>      
+    </div>
+
+    <!-- Proyectos -->
+    <div class="m-2 p-3 border border-dark rounded-3">
+        <div class="row">
+            <div class="col-11">
+                <div class="fs-2 my-2 fw-bold bi bi-buildings">La empresa</div>
+    <div *ngFor="let proyectos of proyectosList">
+        <div id="Proy1" class="row mb-3">
+            <div class="col-11">
+                <div class="row mb-2">        
+                    <div class="col-1 ">
+                    </div>
+                    <div class="col-10 ">
+                        <div class="fs-3 mx-2" style="color: blue;"id="proyecto1">MISIÓN</div>
+                        <div class="text-secondary fs-4 mx-2">Somos una empresa dedicada a la fabricación y venta de productos de limpieza con la mayor calidad y el mejor uso eficiente de recursos, cuidando el medio ambiente y teniendo en cuenta la economía de nuestros clientes.</div>
+                        <input type="text" id="inputProyecto1" class="form-control" style="display: none;" onkeyup="updProyecto1()">
+                    </div>
+                </div> 
+            </div>
+        </div>  
+        <div id="Proy2" class="row mb-3">
+            <div class="col-11">
+                <div class="row mb-2">        
+                    <div class="col-1 text-center ">
+                    </div>
+                    <div class="col-10 ">
+                        <div class="fs-3 mx-2" style="color: blue;"id="proyecto2">VISIÓN</div>
+                        <div class="text-secondary fs-4 mx-2">Para el 2027 pretendemos abarcar al menos el 35% del mercado del Norte Argentino, cumpliendo con las expectativas de nuestros clientes, poniendo como prioridad la satisfacción de sus necesidades y brindando productos seguros para las personas y el medio ambiente.</div>
+                        <input type="text" id="inputProyecto2" class="form-control" style="display: none;" onkeyup="updProyecto2()">
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="Proy3" class="row mb-3">
+            <div class="col-11">
+                <div class="row mb-2">        
+                    <div class="col-1 text-center ">
+                    </div>
+                    <div class="col-10 ">
+                        <div class="fs-3 mx-2" style="color: blue;"id="proyecto3">VALORES</div>
+                        <div class="text-secondary fs-4 mx-2">✦ RESPETO por nuestros clientes, nuestros colaboradores y nuestra comunidad.</div>
+                        <div class="text-secondary fs-4 mx-2">✦ CALIDAD en nuestro servicio.</div>
+                        <div class="text-secondary fs-4 mx-2">✦ SUSTENTABILIDAD asegurando rentabilidad a nuestros accionistas sin perder de vista nuestras responsabilidades sociales y ambientales.</div>
+                        <div class="text-secondary fs-4 mx-2">✦ ÉTICA para con nuestros clientes y destinatarios finales de nuestros productos.</div>
+                        <div class="text-secondary fs-4 mx-2">✦ CREATIVIDAD E INNOVACION búsqueda constante de nuevas soluciones técnicas para poder ofrecer nuevos productos que cubran distintos nichos del mercado.</div>
+                        <input type="text" id="inputProyecto2" class="form-control" style="display: none;" onkeyup="updProyecto3()">
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <!-- modal eliminación -->
+    <div class="modal modal-sm fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel1">Agregar al carrito</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        ¿Desea agregar este producto a su carrito?
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                  <button type="button" class="btn btn-primary" onclick="eliminarItem1('Educ1');" >Agregar</button>
+                </div>
+              </div>
+            </div>
+        </div>   
+    </div>   
+
+    <div class="modal modal-sm fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel2">Agregar al carrito</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        ¿Desea agregar este producto a su carrito?
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" onclick="eliminarItem2('Educ2');" >Agregar</button>
+                </div>
+            </div>
+        </div>
+    </div>   
+
+    <div class="modal modal-sm fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel3">Agregar al carrito</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        ¿Desea agregar este producto a su carrito?
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" onclick="eliminarItem3('Educ3');" >Agregar</button>
+                 </div>
+            </div>
+         </div>
+    </div> 
+
+</div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+<!-- acerda de -->
+    <div class="m-2 p-3 bg-light border border-dark rounded-3">
+        <div class="row bg-light text-dark">
+            <div class="col-11 text-center">
+            <div class="fs-3 fw-bold mb-2">Contacto</div>
+             <i class="bi bi-telephone-fill fw-bold fs-5">  +5493874624628</i>
+             <div></div>
+             <i class="bi bi-envelope-at fw-bold fs-5">  maslimpio@gmail.com</i>
+             <div></div>
+             <i class="bi bi-geo-alt fw-bold fs-5">  Parque Industrial</i>
+             <div class="mb-2 fw-bold fs-5" id="acercaDe">¡No dudes en comunicarte con nosotros!</div>
+            </div> 
+        </div>
+        <div class="mb-8">
+            Nombre:
+            <input 
+              placeholder="Ingrese su nombre" 
+              type="text" 
+              [(ngModel)]="nombre" />
+          </div>
+          <br />
+          <div>
+            Apellido:
+            <input 
+              placeholder="Ingrese su apellido" 
+              type="text" 
+              [(ngModel)]="apellido" />
+          </div>
+          <br />
+          <div>
+            <div>
+             E-mail:
+             <input 
+               placeholder="Ingrese su correo" 
+               type="text" 
+               [(ngModel)]="correo" />
+           </div>
+           <br />
+          <div>
+            Teléfono de contacto:
+            <input
+              placeholder="Ingrese un telefono"
+              type="number"
+              [ngModel]="telefono"
+            />
+          </div>
+          <br />
+          <div>
+            Mensaje:
+            <input 
+              placeholder="Dejenos un mensaje" 
+              type="text" 
+              [(ngModel)]="mensaje" />
+          </div>
+          <br />
+        </div>
+        <br/>
+        <button class="click btn btn-info fs-5 mx-2" id="liveAlertBtn" href="#"(click)="onClick()">Enviar</button>
+    </div>
+    </div>
+    </div>  
+    
+    <input type="text" id="inputAcercaDe" class="form-control" style="display: none;" onkeyup="updAcercaDe()">
+    </div>
+</body>
+
+</html>

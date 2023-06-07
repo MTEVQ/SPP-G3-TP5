@@ -1,0 +1,128 @@
+ <!-- cabecera -->
+ <app-cabecera></app-cabecera>
+
+<!-- encabezado -->
+<app-encabezado></app-encabezado>
+
+
+
+<!-- experiencias y educaciones -->
+<div class="m-2 p-3 border border-dark rounded-3">
+  <div class="fs-2 my-2 fw-bold">A nuestros clientes...</div>
+
+  <!-- experiencias en cursos-->
+  <app-experiencia></app-experiencia>
+</div>
+
+<!-- aptitudes -->
+<!-- educación UNSa  -->
+<app-educacion></app-educacion>
+<app-aptitudes></app-aptitudes>
+
+<!-- proyectos -->
+<app-proyectos></app-proyectos>
+<!-- acerda de -->
+<app-acerca-de></app-acerca-de>
+
+
+<!-- modal eliminación -->
+
+<div class="modal modal-sm fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel1">Agregar al carrito</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <div class="mb-3">
+                ¿Desea agregar este producto a su carrito?
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-primary" onclick="eliminarItem1('Educ1');" >Agregar</button>
+          </div>
+        </div>
+      </div>
+</div>      
+
+<div class="modal modal-sm fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel2">Eliminar Producto del carrito</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <div class="mb-3">
+                  ¿Desea eliminar este producto de su carrito?
+              </div>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-primary" onclick="eliminarItem2('Educ2');" >Eliminar</button>
+          </div>
+      </div>
+  </div>
+</div>   
+
+<div class="modal modal-sm fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel3">Eliminar Producto del carrito</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <div class="mb-3">
+                 ¿Desea eliminar este producto de su carrito?
+              </div>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-primary" onclick="eliminarItem3('Educ3');" >Eliminar</button>
+           </div>
+      </div>
+   </div>
+</div> 
+
+<div class="modal modal-sm fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel4">Eliminar Proyecto</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="mb-3">
+            ¿Desea eliminar este proyecto?
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary" onclick="eliminarItem4('Proy1');" >Eliminar</button>
+      </div>
+    </div>
+  </div>
+</div>   
+
+<div class="modal modal-sm fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel5">Eliminar Aptitud</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="mb-3">
+            ¿Desea eliminar esta aptitud?
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary" onclick="eliminarItem5('Apti1');" >Eliminar</button>
+      </div>
+    </div>
+  </div>
+</div>   
